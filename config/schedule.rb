@@ -20,5 +20,5 @@
 # Learn more: http://github.com/javan/whenever
 
 every :sunday, at: '3am' do
-  rake "result_scraper:saturday_lotto"
+  rake "scrapers:saturday_lotto"
 end
