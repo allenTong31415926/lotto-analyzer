@@ -30,6 +30,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'whenever'  # Add cron gem
 gem 'rake'
+gem 'kimurai'
 
 group :development, :test do
   gem 'rspec-rails'
